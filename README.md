@@ -30,9 +30,17 @@
 * **文字颜色切换**
 
   * 单选按钮控制字体颜色（红 / 绿 / 蓝）
+## 🖼️ 自定义程序图标
+
+在 .pro 文件中加入：
+
+RC_ICONS = app.ico
+
+表示程序使用 app.ico 作为应用图标（仅在 Windows 平台下生效）
+编译后，生成的 .exe 文件和窗口标题栏都会显示该图标
 
 ---
-🎬 演示效果
+## 🎬 演示效果
 
 <img width="436" height="324" alt="f38ee3ad-fb1a-4e25-8c3a-a6123be1cca9" src="https://github.com/user-attachments/assets/238536cb-8248-470a-becf-233653aaa63c" />
 
